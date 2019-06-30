@@ -1,13 +1,14 @@
 require 'pry'
 
 def find_element_index(array, value_to_find)
-  counter=0
-while counter < array.length do
-   array[counter]===value_to_find
-  counter += 1
+   array.length.times do |count|
+    if array[count] == value_to_find
+      return count
+    end
+  end
+  nil
 end
 #binding.pry
-return 
 end
  # expect(find_element_index(scale,2)).to eq(0)
  
