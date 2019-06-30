@@ -1,6 +1,8 @@
 def find_element_index(array, value_to_find)
 while true{
   array===vale_to_find
+}false{
+  return nil
 }
 end
 
