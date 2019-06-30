@@ -4,7 +4,7 @@ while counter < array.length do
    array[counter]===value_to_find
   counter += 1
 end
-return counter
+return 
 end
  # expect(find_element_index(scale,2)).to eq(0)
  
