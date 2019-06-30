@@ -7,6 +7,7 @@ end
 return counter
 end
  # expect(find_element_index(scale,2)).to eq(0)
+ 
 def find_max_value(array)
   # Add your solution here
 end
