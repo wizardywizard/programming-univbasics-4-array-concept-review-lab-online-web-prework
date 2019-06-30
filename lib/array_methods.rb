@@ -4,7 +4,7 @@ while counter < array.length do
    array[counter]===value_to_find
   counter += 1
 end
-return counter
+return array
 end
 
 def find_max_value(array)
