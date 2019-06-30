@@ -16,7 +16,8 @@ def find_max_value(array)
  array.length.times do |count|
     if array[count] > max 
       max = array[count]
-    
+    end
+  end
     #look through the array and return the highest vale integer
 end
 
