@@ -13,7 +13,8 @@ end
  
 def find_max_value(array)
   counter=0
-  while counter < array.length do |count|
+ array.length.times do |count|
+    if array[count] == 
     
     #look through the array and return the highest vale integer
 end
