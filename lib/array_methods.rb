@@ -13,7 +13,9 @@ end
  
 def find_max_value(array)
   counter=0
-  
+  while counter < array.length do |count|
+    
+    #look through the array and return the highest vale integer
 end
 
 def find_min_value(array)
